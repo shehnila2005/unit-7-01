@@ -8,6 +8,6 @@ function randomizer () {
   randomNumber = (Math.random() * 6) + 1
   randomNumber = parseInt(randomNumber)
   if (userGuess === randomNumber) {
-  document.getElementById('answer').innerHTML = 'correct'
-  }  
+    document.getElementById('answer').innerHTML = 'correct'
+  }
 }
